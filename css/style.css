@@ -94,6 +94,7 @@ body {
 }
 .header {
   padding-top: 50px;
+  margin-bottom: 100px;
 }
 .header-nav {
   display: flex;
@@ -300,3 +301,44 @@ body {
 }
 
 /*--------------------*/
+/*about*/
+.about {
+  background: #A7A5EF;
+  /*//left*/
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+}
+.about-column {
+  flex: 0 1 50%;
+  /*left*/
+}
+.about-column-body {
+  padding-top: 20px;
+}
+.about-column-body-item {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+.about-column-body-item:before {
+  content: url(/img/about/tick.svg);
+  padding: 0px 12px;
+  background-color: #ECF2FF;
+  border-radius: 15px 5px 15px 5px;
+}
+.about-column-body-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.about-column-body-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  color: #8C8C98;
+  margin-bottom: 5px;
+}

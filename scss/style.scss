@@ -45,6 +45,7 @@ body {
 
 .header {
     padding-top: 50px;
+    margin-bottom: 100px;
 
     &-nav {
         display: flex;
@@ -301,13 +302,62 @@ body {
         &-body { 
             &-img-l {
                 top: -250px;
-                left: 65  %;
+                left: 65%;
                
             }
         }
     }
 }
 
-
-
 /*--------------------*/
+
+/*about*/
+
+.about {
+    background: #A7A5EF;
+    &-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-column {
+        flex: 0 1 50%;
+
+        /*left*/
+        &-body {
+            padding-top: 20px;
+            &-item {
+                display: block;
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 26px;
+                margin-bottom: 25px;
+
+                &:before {
+                    content: url(/img/about/tick.svg);  
+                    padding: 0px 12px;        
+                    background-color: #ECF2FF;
+                    border-radius: 15px 5px 15px 5px;
+                    
+                }
+            
+            }
+
+            &-title {
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 30px;
+                
+            }
+
+            &-text {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 17px;
+                line-height: 28px;
+                color: #8C8C98;
+                margin-bottom: 5px;
+            }
+        }
+    }
+        /*//left*/
+}
